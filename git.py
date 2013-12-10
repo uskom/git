@@ -1,4 +1,7 @@
 __author__ = 'mustafa kemal'
 for i in range(1,100,6):
-    print("uskom","was","here..!!", sep ="\n")
-    
+    if i == 91 :
+        print("uskom")
+    else:
+        print("i 95 değil")
+    print(i)
